@@ -66,7 +66,7 @@ check.addEventListener('click', function () {
         arr.push(guess);
         previous.textContent = `Previous guesses: ${arr}`;
       } else {
-        displayNumber(secretNumber);
+        // displayNumber(secretNumber);
         displayMessage('🚫 You lost the game!');
         styleBody('#f67905d0');
         displayAttempts(0);
