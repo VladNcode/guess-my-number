@@ -60,7 +60,7 @@ check.addEventListener('click', function () {
     // Wrong guess
     case guess !== secretNumber:
       if (attempts > 1) {
-        displayMessage(guess > secretNumber ? '📈 To high!' : '📉  To low!');
+        displayMessage(guess > secretNumber ? '📈 Too high!' : '📉  Too low!');
         attempts--;
         displayAttempts(attempts);
         arr.push(guess);
